@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+body {
+  background-color: rgb(216, 191, 216);
+  font-family: "Yellowtail", cursive;
+}
+ul {
+  list-style: none;
+  -webkit-padding-start: 0px;
+}
+:root {
+  --pioneet: 3px solid black;
+}
+.main {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.top-header span {
+  margin-left: 60px;
+  font-weight: 600;
+}
+.top-header {
+  margin-bottom: 30px;
+}
+.playlist-row__box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+  border: var(--pioneet);
+  margin-right: 20px;
+  position: relative;
+}
+.playlist-row__box span {
+  position: absolute;
+  left: 35px;
+  top: 32px;
+}
+.playlist-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.various-buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.various-buttons__play {
+  width: 120px;
+  height: 50px;
+  background-color: cornsilk;
+  border-radius: 20px;
+  border: var(--pioneet);
+  margin-right: 20px;
+  border-bottom-width: 7px;
+}
+.various-buttons__play span {
+  display: flex;
+  align-items: center;
+  margin-left: 38px;
+  margin-top: 8px;
+  font-weight: 600;
+}
+.various-buttons__plus,
+.various-buttons__heart {
+  width: 50px;
+  height: 50px;
+  background-color: cornsilk;
+  border-radius: 25px;
+  border: var(--pioneet);
+  margin-right: 20px;
+  border-bottom-width: 7px;
+}
+.fa-plus,
+.fa-heart {
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+.various-list__column {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.various-list__flex {
+  display: flex;
+  flex-direction: column;
+}
+.various-list__color {
+  width: 50px;
+  height: 50px;
+  background-color: #f85a2a;
+  border-radius: 10px;
+  border: var(--pioneet);
+  margin-right: 20px;
+}
+.color-1 {
+  background-color: #ff89bb;
+}
+.color-2 {
+  background-color: #1947e5;
+}
+.color-3 {
+  background-color: #00c6ad;
+}
+#weight {
+  font-size: 20px;
+  font-weight: 600;
+}

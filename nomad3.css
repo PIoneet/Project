@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import "reset.css";
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Yellowtail", cursive;
+}
+.header-top {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+  background-color: #ffce33;
+}
+.header-top__column:first-child {
+  margin-right: auto;
+  padding-left: 20px;
+}
+.header-top__column:last-child {
+  margin-left: auto;
+  padding-right: 20px;
+}
+.header-top__column:nth-child(2) {
+  font-size: 18px;
+  font-weight: 600;
+}
+.search-box__relative {
+  position: relative;
+}
+.search-box {
+  width: 900px;
+  height: 60px;
+  background-color: yellowgreen;
+  border-radius: 30px;
+  position: absolute;
+  left: 70px;
+  top: -30px;
+}
+.search-box__text {
+  padding-top: 20px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+}
+.fa-search {
+  padding-right: 40px;
+}
+.main-padding {
+  padding-left: 90px;
+}
+.first-title {
+  padding-top: 75px;
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.first-book__image img {
+  width: 220px;
+  height: 350px;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+.first-book {
+  display: flex;
+  align-content: center;
+  margin-bottom: 50px;
+}
+.first-book__column {
+  display: flex;
+  flex-direction: column;
+  line-height: 70px;
+}
+.white-buttons__column {
+  width: 100px;
+  height: 30px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin-right: 20px;
+  position: relative;
+}
+.white-buttons {
+  display: flex;
+  margin-bottom: 38px;
+}
+.black-buttons__column {
+  width: 40px;
+  height: 40px;
+  background-color: #ffce33;
+  border-radius: 20px;
+  margin-right: 40px;
+  position: relative;
+}
+.black-buttons__column span {
+  position: absolute;
+  top: -13px;
+  left: 14px;
+}
+.black-buttons__column-2 {
+  width: 150px;
+  height: 40px;
+  background-color: #0d0d0d;
+  border-radius: 10px;
+  position: relative;
+}
+.black-buttons__column-2 span {
+  color: #f7f7f7;
+  position: absolute;
+  top: -15px;
+  left: 45px;
+}
+.black-buttons {
+  display: flex;
+}
+#first-book__name {
+  font-size: 25px;
+}
+#first-book__subtitle {
+  opacity: 0.5;
+}
+.first-book__icons {
+  margin-bottom: 22px;
+}
+.fa-star {
+  color: #ffce33;
+}
+.white-buttons__column span {
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+.vary-books__column {
+  white-space: nowrap;
+  overflow-x: scroll;
+  display: flex;
+  align-content: center;
+  margin-bottom: 50px;
+}
+.vary-books__column img {
+  margin-right: 40px;
+  border-radius: 10px;
+  box-shadow: 13px 1px rgba(142, 142, 204, 0.2);
+}
+.vary-books__title {
+  margin-bottom: 30px;
+}
+.famous-author__title,
+.vary-books__title h1 {
+  font-size: 28px;
+}
+.famous-author__title {
+  margin-bottom: 30px;
+}
+.famous-author__image img {
+  width: 200px;
+  height: 280px;
+  border-radius: 20px;
+}
+.famous-author__image {
+  margin-right: 40px;
+}
+.famous-author {
+  display: flex;
+  align-content: center;
+}
+.famous-author__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+#big {
+  font-size: 29px;
+  margin-bottom: 20px;
+}
+#big::first-letter {
+  font-size: 50px;
+  color: blue;
+}
