@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: "Yellowtail", cursive;
+}
+.main-block__father {
+  width: 200px;
+  height: 350px;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 0px 40px;
+}
+.main-block__father-2 {
+  width: 200px;
+  height: 350px;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 0px 40px;
+}
+.main-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 21px;
+}
+
+.main-block__father:first-child {
+  background-color: tomato;
+}
+.main-block__father:nth-child(3) {
+  background-color: teal;
+}
+.main-block__father-2:first-child {
+  background-color: #deb887;
+}
+.main-block__father-2:nth-child(3) {
+  background-color: rgb(216, 191, 216);
+}
+.main-block__column {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.main-block__column-2 {
+  display: flex;
+  justify-content: center;
+}
+.relative {
+  position: relative;
+}
+.main-block__absolute {
+  width: 200px;
+  height: 100px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 45px;
+  top: 20px;
+}
+.main-block__absolute span {
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.main-block__absolute span:first-child {
+  font-size: 20px;
+}
+.main-block {
+  display: flex;
+  flex-direction: column;
+}
